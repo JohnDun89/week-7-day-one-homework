@@ -37,6 +37,6 @@ public class CircusBearTest{
     @Test
     public void cantEatSteak(){
         // This will cause a compilation error
-        circusBear.eat(steak);
+        circusBear.eat(steak, edilbe);
     }
 }
