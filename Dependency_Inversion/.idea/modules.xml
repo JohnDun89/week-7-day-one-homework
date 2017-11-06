@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/DependencyInversion.iml" filepath="$PROJECT_DIR$/DependencyInversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dependency_Inversion.iml" filepath="$PROJECT_DIR$/Dependency_Inversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>
