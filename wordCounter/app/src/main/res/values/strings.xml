@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">wordCounter</string>
+    <string name="askInput">Say Somthing!</string>
+    <string name="buttonText">Go!</string>
+</resources>
