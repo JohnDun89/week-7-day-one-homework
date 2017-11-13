@@ -17,5 +17,15 @@ class WordCount {
         return numbers;
 
     }
+
+    public String numberToString(Integer number){
+       String result = number.toString();
+       return result;
+    }
+
+    public String number(String input){
+        Integer numericAmount = returnNumberOfCharactersInString(input);
+        return numberToString(numericAmount);
+    }
 }
 

@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d(getClass().toString(),input);
 
         WordCount wordCount = new WordCount();
-        Integer stringLenght = wordCount.returnNumberOfCharactersInString(input);
-        this.inputEdit.setText(stringLenght);
+        String stringLenght = wordCount.number(input);
+        this.inputQuestion.setText(stringLenght);
     }
 }
