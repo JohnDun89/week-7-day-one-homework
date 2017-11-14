@@ -26,4 +26,10 @@ public class WordCountTest {
         assertEquals("5",wordCount.numberToString(5));
 
     }
+
+    @Test
+    public void canReturnHashMap(){
+        WordCount wordCount = new WordCount();
+        assertEquals("Hello : 1 You : 1", wordCount.returnNUmberOfTimesWordOccurs("Whats happening you utter lunatic."));
+    }
 }
