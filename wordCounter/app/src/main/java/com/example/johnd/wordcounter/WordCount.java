@@ -54,12 +54,12 @@ class WordCount {
         return wordCount;
     }
 
-    public String toStirng(HashMap wordCount){
-        String output = "Total value : " + words.length + "/n";
-
-        for (String key: wordCount.keySet()){
-            output += key + " : " + wordCount.get(key) + "\n";
-        }
-        return output;
-    }
+//    public String toStirng(HashMap wordCount){
+//        String output = "Total value : " + words.length + "/n";
+//
+//        for (String key: wordCount.keySet()){
+//            output += key + " : " + wordCount.get(key) + "\n";
+//        }
+//        return output;
+//    }
 }
