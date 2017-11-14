@@ -14,11 +14,11 @@ import static java.util.Map.*;
 
 class WordCount {
 
-    private String input;
+    private String[] words;
     private HashMap<String, Integer> wordCount;
 
     public WordCount() {
-        this.input = input;
+        this.words = words;
         this.wordCount = new HashMap<>();
 
     }
@@ -42,7 +42,7 @@ class WordCount {
     // following adapted from stack over flow pages.
 
     public HashMap<String, Integer> returnNUmberOfTimesWordOccurs(String inputText) {
-        String[] splitUp = inputText.split(" ");
+        String[] splitUp = inputText.toLowerCase().split(" ");
         for (String word : splitUp)
             if (wordCount.containsKey(word)) {
                 wordCount.put(word, wordCount.get(word) + 1);
@@ -52,5 +52,14 @@ class WordCount {
                 }
 
         return wordCount;
+    }
+
+    public String toStirng(HashMap wordCount){
+        String output = "Total value : " + words.length + "/n";
+
+        for (String key: wordCount.keySet()){
+            output += key + " : " + wordCount.get(key) + "\n";
+        }
+        return output;
     }
 }

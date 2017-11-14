@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import java.util.HashMap;
+
 public class MainActivity extends AppCompatActivity {
 
     private TextView inputQuestion;
@@ -37,5 +40,16 @@ public class MainActivity extends AppCompatActivity {
         WordCount wordCount = new WordCount();
         String stringLenght = wordCount.number(input);
         this.inputQuestion.setText(stringLenght);
+    }
+
+    public void onAdvancedButtonClicked(View view){
+        Log.d( "MainActivity", "onAdvancedButtonClicked");
+        String string = this.inputEdit.getText().toString();
+        Log.d(getClass().toString(),string);
+
+        WordCount wordCount = new WordCount();
+        HashMap<String, Integer> stringReturned = wordCount.returnNUmberOfTimesWordOccurs(string);
+        String returnAmount  = toString(stringReturned);
+        this.inputQuestion.setText(returnAmount);
     }
 }

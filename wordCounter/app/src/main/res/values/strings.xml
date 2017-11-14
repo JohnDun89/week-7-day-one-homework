@@ -2,4 +2,6 @@
     <string name="app_name">wordCounter</string>
     <string name="askInput">Say Somthing!</string>
     <string name="buttonText">Go!</string>
+    <string name="return_button">Occurances</string>
+    <string name="large_output" />
 </resources>
