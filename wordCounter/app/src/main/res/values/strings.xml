@@ -4,6 +4,6 @@
     <string name="buttonText">Go!</string>
     <string name="return_button">Occurances</string>
     <string name="large_output" />
-    <string name="about">activity_settings</string>
-    <string name="settings">activity_settings</string>
+    <string name="about">about</string>
+    <string name="settings">settings</string>
 </resources>

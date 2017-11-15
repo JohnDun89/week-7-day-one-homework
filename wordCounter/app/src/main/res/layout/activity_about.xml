@@ -15,7 +15,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:lineSpacingExtra="5sp"
-        android:text="I have come here to chew bubblegum and build Android apps.... And I'm all out of bubblegum."
+        android:text="This app was created by John Duncan, celebrity and Android Connisuer"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="italic"
@@ -23,5 +23,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="I have come here to chew bubblegum and build Android apps.... And I'm all out of bubblegum." />
+        tools:text="This app was created by John Duncan, celebrity and Android Connisuer" />
 </android.support.constraint.ConstraintLayout>
